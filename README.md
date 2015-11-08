@@ -1,9 +1,14 @@
-# Défi : Can You Feed It
-. Based on Node.js & Pixi.js .
+# Can You Feed It
 
-## Fed by Feed
-1. . First you need to select a Word .
-2. . It'll make an search query for this Word and return Twitter's feed .
-3. . Twitter's Feed is shown as spheres, click on them in order to feed yourself ! .
+### Feed with Tweet
 
-. Be indulgent, this is a personnal project, Enjoy ! .
+- `You're starving`
+- `Search for a word on twitter`
+- `Tweets containing this word are converted into bubbles` 
+- `Click on them in order to feed yourself`
+
+### Usage
+
+Make sure you have `node`and `npm` installed. 
+After you have installed dependencies with `npm install`, 
+you can run `node app.js` and check it @ http://localhost:8080
