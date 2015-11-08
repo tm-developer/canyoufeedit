@@ -1,0 +1,130 @@
+*{
+	box-sizing: border-box;
+}
+.hide{
+	visibility: hidden;
+}
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #467BBB;
+	font-family: 'Inconsolata';
+	font-size: 10px;
+	color: #F4DBBD;
+}
+iframe{
+	position: absolute;
+}
+h1,h2,h3,.hunger{
+	display: block;
+	padding-top: 20px;
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 3rem;
+	position: fixed;
+	margin: 0;
+	color: #F4DBBD;
+	z-index: 20;
+	text-shadow: 1px 1px 1px #000000;
+}
+h2{
+	top: 100px;
+}
+h3{
+	top: 350px;
+	display: none;
+}
+.hunger{
+	position: fixed;
+	right: 0;
+	z-index: 40;
+	width: 25%;
+	display: none;
+}
+.hunger:before{
+	content: "hunger :";
+	margin-right: 2rem;
+}
+#word{
+	width: 25%;
+	margin: 0 auto;
+	padding-top: 200px;
+}
+input[type="text"]{
+	width: 100%;
+	height: 4rem;
+	font-size: 3rem;
+	padding: 20px;
+	background: #F4DBBD;
+	border: none;
+	outline: #F4DBBD;
+	color: #467BBB;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #ffffff;
+	text-align: center;
+}
+input[type="submit"]{
+	width: 100%;
+	height: 4rem;
+	font-weight: 900;
+	font-size: 2rem;
+	text-transform: uppercase;
+	color: #F4DBBD;
+	border: 2px solid #F4DBBD;
+	background: transparent;
+	transition: background 300ms ease-in;
+	cursor: pointer;
+	z-index: 30;
+	text-shadow: 1px 1px 1px #000000;
+}
+button{
+	display: block;
+	width: 25%;
+	height: 4rem;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 2rem;
+	color: #F4DBBD;
+	border: 2px solid #F4DBBD;
+	background: transparent;
+	position: fixed;
+	left: calc(50% - 12.5%);
+	top: calc(50% - 2rem);
+	transition: background 300ms ease-in;
+	cursor: pointer;
+	z-index: 30;
+	text-shadow: 1px 1px 1px #000000;
+}
+button:hover{
+	background: #F4DBBD;
+	color: #467BBB;
+	text-shadow: 1px 1px 1px #ffffff;
+}
+#starter{
+	color: #F4DBBD;
+	text-align: center;
+	padding: 15%;
+	width: 100%;
+	opacity: 1;
+	position: absolute;
+	background: #467BBB;
+	z-index: 10;
+	display: none;
+}
+#starter p,.alert{
+	margin-bottom: 50px;
+	font-size: 2.5rem;
+	text-transform: uppercase;
+}
+p.alert{
+	position: fixed;
+	top: 400px;
+	width: 100%;
+	font-size: 3rem;
+	text-align: center;
+	display: none;
+}
+#startRequest{
+	display: none;
+}

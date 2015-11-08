@@ -1,0 +1,28 @@
+{
+  "name": "canyoufeedit",
+  "version": "1.0.0",
+  "engine": "node >= 0.12.0",
+  "description": "Fed by feed",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "cookie-parser": "^1.4.0",
+    "express-session": "^1.12.0",
+    "twit": "^2.1.0",
+    "express": "^4.13.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tm-developer/canyoufeedit.git"
+  },
+  "author": "tm-developer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tm-developer/canyoufeedit/issues"
+  },
+  "homepage": "https://github.com/tm-developer/canyoufeedit"
+}

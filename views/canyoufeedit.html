@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Can You Feed It ?</title>
+	<link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="/js/pixi.js"></script>
+</head>
+<body>
+	<h1>Can you feed it ?</h1>
+	<h2>Search for a word :</h2>
+	<p class="hunger">0</p>
+	<div id="word">
+		<form action='/' method='post' target='hiddenFrame'>
+			<input type='text' name='word'></input>
+			<input type="submit" value="valider" id="validator">
+		</form>
+	</div>
+	<iframe name="hiddenFrame" class="hide"></iframe>
+	<div id="starter">
+		<p>You are hungry, you need 500 in order not to starve</p>
+		<p>Get Ready To Feed Yourself!</p>
+	</div>
+	<p class="alert">Congratulations, you are not hungry anymore !</p>
+	<h3>Let's Start</h3>
+	<button id="startRequest">Start</button>
+</body>
+	<script src="/js/main.js"></script>
+</html>
